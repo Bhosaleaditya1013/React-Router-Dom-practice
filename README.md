@@ -1,11 +1,37 @@
-# React Router Dom practice 
+# 🧭 React Router DOM Practice
 
-**Question :** 
+A simple React application that demonstrates client-side routing using **React Router DOM**. Navigate between `Home`, `About`, and `Contact` pages without reloading the browser.
 
-# Create a React application that uses React Router to navigate between three pages: Home, About, and Contact.
+---
 
-# Create separate components for each page.
+## 📂 Project Structure
 
-# Use <Link> to create navigation links at the top.
+react-router-practice/
+├── public/
+├── src/
+│ ├── components/
+│ │ ├── Home.js
+│ │ ├── About.js
+│ │ └── Contact.js
+│ ├── App.js
+│ └── index.js
+├── package.json
+└── README.md
 
-# When the user clicks on a link, the corresponding page should be displayed without refreshing the page
+
+🔧 Features:
+
+🏠 Home, 📄 About, and 📞 Contact pages
+
+🔗 Navigation using <Link> (No page refresh)
+
+⚡ Built using React Router DOM v6+
+
+✅ Clean routing using <Routes> and <Route>
+
+🚫 404 Not Found route for undefined paths (optional)
+
+
+
+📦 Dependencies : React , React Router DOM (npm install react-router-dom)
+
